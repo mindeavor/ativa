@@ -64,3 +64,10 @@ Project.all.each do |project|
 end
 
 puts "Added posts to every project"
+
+users = ["shehzan", "shaan", "harsh", "matt", "ravi"]
+users.each do |u|
+  User.create(name: u, email: "#{u}@themakersquare.com", password: "makersquare", password_confirmation: "makersquare")
+end
+
+puts "Added a few users"
