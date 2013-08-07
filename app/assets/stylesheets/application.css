@@ -18,7 +18,7 @@
 
 a {
     text-decoration: none;
-    cursor: default;
+    cursor: pointer;
     background: none;
     color: red;
 
@@ -34,7 +34,7 @@ a:hover {
 
 .navbar-fixed-top
 {
- height:50px;   
+ height:50px;
 }
 .content
 {
@@ -44,7 +44,7 @@ a:hover {
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
-    top: 75px; 
+    top: 75px;
     bottom: 0px;
     left: 230px;
     right: 0px;

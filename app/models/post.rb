@@ -12,7 +12,7 @@ class Post < ActiveRecord::Base
     snippet = self.message.truncate(message_size, :separator => ' ')
     return snippet
   end
-  
+
   def attachment_image(size)
   	if self.attachment?
   		return self.attachment_url(size)

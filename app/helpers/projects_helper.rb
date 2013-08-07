@@ -10,5 +10,5 @@ module ProjectsHelper
   	}
   	return levels[phase]
   end
-  
+
 end
